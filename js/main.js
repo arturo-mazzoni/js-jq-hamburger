@@ -1,7 +1,11 @@
 $(document).ready(function(){
 
   $(".header-right > a").click(function(){
-    $(".close").show();
+    $(".hamburger-menu").show();
+  });
+
+  $(".hamburger-menu .close").click(function(){
+    $(".hamburger-menu").hide();
   });
 
 })
